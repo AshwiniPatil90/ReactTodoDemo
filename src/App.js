@@ -30,9 +30,6 @@ function App() {
         </div>
         <div className='card-body'>
           <TodoTable todos={todos} />
-          <button className='btn btn-primary' onClick={addTodo}>
-            Add new todo
-          </button>
           <NewTodoForm addTodo={addTodo} />
         </div>
       </div>
